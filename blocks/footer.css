@@ -1,20 +1,16 @@
 .footer {
-  width: 166px;
-  height: 16px;
-  padding-left: 556px;
-  padding-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 .copyright {
-  width: 166px;
-  height: 16px;
-  padding-left: 300px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  text-align: right;
+  margin: 0;
 
   color: #ffffff;
 }

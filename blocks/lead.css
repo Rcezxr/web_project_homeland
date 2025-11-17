@@ -1,12 +1,14 @@
 .lead {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .lead__title {
-  width: 720px;
-  height: 200px;
-  padding-left: 280px;
+  max-width: 720px;
+  /*height: 200px;*/
+  /*padding-left: 280px; tentando resolver alinhamento com align items */
   padding-top: 194px;
   padding-bottom: 32px;
   font-family: "Inter";
@@ -15,13 +17,13 @@
   font-size: 96px;
   line-height: 100px;
   text-align: center;
+  align-items: center;
 
   color: #ffffff;
 }
 .lead__subtitle {
-  width: 720px;
-  height: 72px;
-  padding-left: 280px;
+  max-width: 720px;
+  /*height: 72px;*/
   padding-bottom: 64px;
   font-family: "Inter";
   font-style: normal;
@@ -32,8 +34,23 @@
   color: #ffffff;
 }
 .lead__image {
-  width: 984px;
-  height: 615px;
-  padding-left: 148px;
+  max-width: 984px;
   padding-bottom: 92px;
+}
+.image {
+  width: 100%;
+}
+
+@media screen and(max-width: 1024px) {
+  .lead__title {
+    width: 75px;
+  }
+}
+@media screen and(max-width: 544px) {
+  .lead__title {
+    width: 40px;
+  }
+  .lead__subtitle {
+    width: 16px;
+  }
 }

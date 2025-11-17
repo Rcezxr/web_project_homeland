@@ -1,13 +1,11 @@
 .intro {
-  width: 830px;
   height: 482px;
   padding-left: 148px;
   padding-bottom: 92px;
+  max-width: 830px;
 }
 .intro__title {
-  width: 830px;
-  height: 116px;
-  padding-right: 302px;
+  font-size: 54px;
   padding-bottom: 40px;
 
   font-family: "Inter";
@@ -21,7 +19,6 @@
 .intro__paragraph {
   width: 738px;
   height: 68px;
-  padding-right: 394px;
   padding-bottom: 10px;
 
   font-family: "Inter";
@@ -36,7 +33,6 @@
 .intro__author {
   width: 732px;
   height: 34px;
-  padding-right: 400px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -49,7 +45,6 @@
 .intro__text {
   width: 722px;
   height: 182px;
-  padding-right: 410px;
 
   font-family: "Inter";
   font-style: normal;
@@ -58,4 +53,35 @@
   line-height: 163%;
 
   color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .intro__title {
+    font-size: 45px;
+  }
+}
+@media screen and(max-width: 544px) {
+  .intro {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .intro__title {
+    font-size: 32px;
+  }
 }
