@@ -1,5 +1,4 @@
 .intro {
-  height: 482px;
   padding-left: 148px;
   padding-bottom: 92px;
   max-width: 830px;
@@ -18,7 +17,7 @@
 }
 .intro__paragraph {
   width: 738px;
-  height: 68px;
+
   padding-bottom: 10px;
 
   font-family: "Inter";
