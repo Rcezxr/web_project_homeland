@@ -7,11 +7,9 @@
 }
 .lead__title {
   max-width: 720px;
-  /*height: 200px;*/
-  /*padding-left: 280px; tentando resolver alinhamento com align items */
   padding-top: 194px;
   padding-bottom: 32px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -23,9 +21,8 @@
 }
 .lead__subtitle {
   max-width: 720px;
-  /*height: 72px;*/
   padding-bottom: 64px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;

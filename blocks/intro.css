@@ -16,7 +16,8 @@
   color: #ffffff;
 }
 .intro__paragraph {
-  width: 738px;
+  width: 100%;
+  max-width: 738px;
 
   padding-bottom: 10px;
 
@@ -30,7 +31,8 @@
 }
 
 .intro__author {
-  width: 732px;
+  width: 100%;
+  max-width: 738px;
   height: 34px;
   font-family: "Inter";
   font-style: normal;
@@ -42,8 +44,7 @@
   color: #ffffff;
 }
 .intro__text {
-  width: 722px;
-  height: 182px;
+  width: 100%;
 
   font-family: "Inter";
   font-style: normal;
@@ -69,7 +70,7 @@
     font-size: 45px;
   }
 }
-@media screen and(max-width: 544px) {
+@media screen and (max-width: 544px) {
   .intro {
     padding-left: 0;
     padding-right: 0;
