@@ -27,6 +27,25 @@
   color: #ffffff;
 }
 
+.place__content_burundi {
+  max-width: 984px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas:
+    "title artists"
+    "image description"
+    "image description"
+    "button description";
+  gap: 40px;
+
+  font-family: "Inter" sans-serif;
+  color: #ffffff;
+}
+
 .place__title {
   width: 100%;
   font-size: 72px;

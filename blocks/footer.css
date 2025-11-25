@@ -3,6 +3,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding-top: 90px;
+  padding-bottom: 25px;
 }
 .footer__copyright {
   font-family: "Inter";
