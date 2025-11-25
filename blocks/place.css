@@ -61,6 +61,10 @@
 .place__image {
   max-width: 460px;
   grid-area: image;
+  cursor: pointer;
+}
+.place__image:hover {
+  opacity: 0.5;
 }
 .place__image-element {
   width: 100%;
@@ -100,6 +104,14 @@
   grid-area: button;
   max-width: 356px;
 }
+.place__button-text:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
+}
+
 .place__button-text {
   width: 100%;
 
